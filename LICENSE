@@ -1,0 +1,5 @@
+
+riginStr = "改价前：￥\(PriceDisplayTool.JtraReturnPrice(WithPrice: mainOrder.originalTotalFee ?? 0))"
+            let originAttriStr = NSMutableAttributedString(string: originStr)
+            originAttriStr.addAttribute(NSStrikethroughStyleAttributeName, value: NSNumber.init(integer: 1), range: NSMakeRange(0, originStr.length))
+            originPriceLabel.attributedText = originAttriStr
