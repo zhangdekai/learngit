@@ -247,6 +247,30 @@ $ git show v0.9 查看tag v0.9
 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
 
+18.Git 配置
+
+如果敲git st就表示git status那就简单多了，当然这种偷懒的办法我们是极力赞成的。
+
+我们只需要敲一行命令，告诉Git，以后st就表示status：
+
+$ git config --global alias.st status
+
+当然还有别的命令可以简写，很多人都用co表示checkout，ci表示commit，br表示branch：
+
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
 
 
 
+19.搭建git 服务器
+
+不必在意
+
+simple git learn over  bey bey
+
+
+
+
+
+ 
